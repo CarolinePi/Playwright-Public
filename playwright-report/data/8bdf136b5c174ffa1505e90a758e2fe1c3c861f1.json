@@ -1,0 +1,337 @@
+{
+  "fileId": "8bdf136b5c174ffa1505e90a758e2fe1c3c861f1",
+  "fileName": "tests/test3.spec.js",
+  "tests": [
+    {
+      "testId": "8bdf136b5c174ffa1505e90a758e2fe1c3c861f1-4cae6229c73785056c6e0c7beecb73e48bb2ad9a",
+      "title": "test",
+      "projectName": "",
+      "location": {
+        "file": "tests/test3.spec.js",
+        "line": 2,
+        "column": 1
+      },
+      "duration": 9314,
+      "outcome": "unexpected",
+      "path": [
+        "tests/test3.spec.js:2"
+      ],
+      "results": [
+        {
+          "duration": 9314,
+          "startTime": "2021-11-28T14:38:18.072Z",
+          "retry": 0,
+          "steps": [
+            {
+              "title": "Before Hooks",
+              "startTime": "2021-11-28T14:38:18.073Z",
+              "duration": 170,
+              "steps": [
+                {
+                  "title": "browserContext.newPage",
+                  "startTime": "2021-11-28T14:38:18.207Z",
+                  "duration": 36,
+                  "steps": []
+                }
+              ]
+            },
+            {
+              "title": "page.goto(https://www.demoblaze.com/)",
+              "startTime": "2021-11-28T14:38:18.244Z",
+              "duration": 2286,
+              "snippet": "\u001b[0m \u001b[90m  3 |\u001b[39m   \u001b[90m// Go to https://www.demoblaze.com/\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m  4 |\u001b[39m   \u001b[36mawait\u001b[39m page\u001b[33m.\u001b[39mgoto(\u001b[32m'https://www.demoblaze.com/'\u001b[39m)\u001b[33m;\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m    |\u001b[39m \u001b[31m\u001b[1m             ^\u001b[22m\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m  5 |\u001b[39m   \u001b[90m// Click text=Cart\u001b[39m\u001b[0m",
+              "steps": [],
+              "location": {
+                "file": "tests/test3.spec.js",
+                "line": 4,
+                "column": 14
+              }
+            },
+            {
+              "title": "page.click(text=Cart)",
+              "startTime": "2021-11-28T14:38:20.531Z",
+              "duration": 276,
+              "snippet": "\u001b[0m \u001b[90m  5 |\u001b[39m   \u001b[90m// Click text=Cart\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m  6 |\u001b[39m   \u001b[36mawait\u001b[39m page\u001b[33m.\u001b[39mclick(\u001b[32m'text=Cart'\u001b[39m)\u001b[33m;\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m    |\u001b[39m \u001b[31m\u001b[1m             ^\u001b[22m\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m  7 |\u001b[39m   \u001b[36mawait\u001b[39m expect(page)\u001b[33m.\u001b[39mtoHaveURL(\u001b[32m'https://www.demoblaze.com/cart.html'\u001b[39m)\u001b[33m;\u001b[39m\u001b[0m",
+              "steps": [],
+              "location": {
+                "file": "tests/test3.spec.js",
+                "line": 6,
+                "column": 14
+              }
+            },
+            {
+              "title": "expect.toHaveURL",
+              "startTime": "2021-11-28T14:38:20.809Z",
+              "duration": 30,
+              "snippet": "\u001b[0m \u001b[90m  6 |\u001b[39m   \u001b[36mawait\u001b[39m page\u001b[33m.\u001b[39mclick(\u001b[32m'text=Cart'\u001b[39m)\u001b[33m;\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m  7 |\u001b[39m   \u001b[36mawait\u001b[39m expect(page)\u001b[33m.\u001b[39mtoHaveURL(\u001b[32m'https://www.demoblaze.com/cart.html'\u001b[39m)\u001b[33m;\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m    |\u001b[39m \u001b[31m\u001b[1m                     ^\u001b[22m\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m  8 |\u001b[39m   \u001b[90m// Click button:has-text(\"Place Order\")\u001b[39m\u001b[0m",
+              "steps": [],
+              "location": {
+                "file": "tests/test3.spec.js",
+                "line": 7,
+                "column": 22
+              }
+            },
+            {
+              "title": "page.click(button:has-text(\"Place Order\"))",
+              "startTime": "2021-11-28T14:38:20.840Z",
+              "duration": 296,
+              "snippet": "\u001b[0m \u001b[90m  8 |\u001b[39m   \u001b[90m// Click button:has-text(\"Place Order\")\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m  9 |\u001b[39m   \u001b[36mawait\u001b[39m page\u001b[33m.\u001b[39mclick(\u001b[32m'button:has-text(\"Place Order\")'\u001b[39m)\u001b[33m;\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m    |\u001b[39m \u001b[31m\u001b[1m             ^\u001b[22m\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m 10 |\u001b[39m   \u001b[90m// Click text=Total: Name: Country: City: Credit card: Month: Year: >> input[type=\"text\"]\u001b[39m\u001b[0m",
+              "steps": [],
+              "location": {
+                "file": "tests/test3.spec.js",
+                "line": 9,
+                "column": 14
+              }
+            },
+            {
+              "title": "page.click(text=Total: Name: Country: City: Credit card: Month: Year: >> input[type=\"text\"])",
+              "startTime": "2021-11-28T14:38:21.136Z",
+              "duration": 490,
+              "snippet": "\u001b[0m \u001b[90m 10 |\u001b[39m   \u001b[90m// Click text=Total: Name: Country: City: Credit card: Month: Year: >> input[type=\"text\"]\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m 11 |\u001b[39m   \u001b[36mawait\u001b[39m page\u001b[33m.\u001b[39mclick(\u001b[32m'text=Total: Name: Country: City: Credit card: Month: Year: >> input[type=\"text\"]'\u001b[39m)\u001b[33m;\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m    |\u001b[39m \u001b[31m\u001b[1m             ^\u001b[22m\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m 12 |\u001b[39m   \u001b[90m// Fill text=Total: Name: Country: City: Credit card: Month: Year: >> input[type=\"text\"]\u001b[39m\u001b[0m",
+              "steps": [],
+              "location": {
+                "file": "tests/test3.spec.js",
+                "line": 11,
+                "column": 14
+              }
+            },
+            {
+              "title": "page.fill(text=Total: Name: Country: City: Credit card: Month: Year: >> input[type=\"text\"])",
+              "startTime": "2021-11-28T14:38:21.627Z",
+              "duration": 10,
+              "snippet": "\u001b[0m \u001b[90m 12 |\u001b[39m   \u001b[90m// Fill text=Total: Name: Country: City: Credit card: Month: Year: >> input[type=\"text\"]\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m 13 |\u001b[39m   \u001b[36mawait\u001b[39m page\u001b[33m.\u001b[39mfill(\u001b[32m'text=Total: Name: Country: City: Credit card: Month: Year: >> input[type=\"text\"]'\u001b[39m\u001b[33m,\u001b[39m \u001b[32m'sdsadsad'\u001b[39m)\u001b[33m;\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m    |\u001b[39m \u001b[31m\u001b[1m             ^\u001b[22m\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m 14 |\u001b[39m   \u001b[90m// Fill #country\u001b[39m\u001b[0m",
+              "steps": [],
+              "location": {
+                "file": "tests/test3.spec.js",
+                "line": 13,
+                "column": 14
+              }
+            },
+            {
+              "title": "page.fill(#country)",
+              "startTime": "2021-11-28T14:38:21.638Z",
+              "duration": 9,
+              "snippet": "\u001b[0m \u001b[90m 14 |\u001b[39m   \u001b[90m// Fill #country\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m 15 |\u001b[39m   \u001b[36mawait\u001b[39m page\u001b[33m.\u001b[39mfill(\u001b[32m'#country'\u001b[39m\u001b[33m,\u001b[39m \u001b[32m'd'\u001b[39m)\u001b[33m;\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m    |\u001b[39m \u001b[31m\u001b[1m             ^\u001b[22m\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m 16 |\u001b[39m   \u001b[90m// Click #country\u001b[39m\u001b[0m",
+              "steps": [],
+              "location": {
+                "file": "tests/test3.spec.js",
+                "line": 15,
+                "column": 14
+              }
+            },
+            {
+              "title": "page.click(#country)",
+              "startTime": "2021-11-28T14:38:21.647Z",
+              "duration": 44,
+              "snippet": "\u001b[0m \u001b[90m 16 |\u001b[39m   \u001b[90m// Click #country\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m 17 |\u001b[39m   \u001b[36mawait\u001b[39m page\u001b[33m.\u001b[39mclick(\u001b[32m'#country'\u001b[39m)\u001b[33m;\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m    |\u001b[39m \u001b[31m\u001b[1m             ^\u001b[22m\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m 18 |\u001b[39m   \u001b[90m// Fill #country\u001b[39m\u001b[0m",
+              "steps": [],
+              "location": {
+                "file": "tests/test3.spec.js",
+                "line": 17,
+                "column": 14
+              }
+            },
+            {
+              "title": "page.fill(#country)",
+              "startTime": "2021-11-28T14:38:21.691Z",
+              "duration": 6,
+              "snippet": "\u001b[0m \u001b[90m 18 |\u001b[39m   \u001b[90m// Fill #country\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m 19 |\u001b[39m   \u001b[36mawait\u001b[39m page\u001b[33m.\u001b[39mfill(\u001b[32m'#country'\u001b[39m\u001b[33m,\u001b[39m \u001b[32m'dasdsadad'\u001b[39m)\u001b[33m;\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m    |\u001b[39m \u001b[31m\u001b[1m             ^\u001b[22m\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m 20 |\u001b[39m   \u001b[90m// Click #city\u001b[39m\u001b[0m",
+              "steps": [],
+              "location": {
+                "file": "tests/test3.spec.js",
+                "line": 19,
+                "column": 14
+              }
+            },
+            {
+              "title": "page.click(#city)",
+              "startTime": "2021-11-28T14:38:21.697Z",
+              "duration": 45,
+              "snippet": "\u001b[0m \u001b[90m 20 |\u001b[39m   \u001b[90m// Click #city\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m 21 |\u001b[39m   \u001b[36mawait\u001b[39m page\u001b[33m.\u001b[39mclick(\u001b[32m'#city'\u001b[39m)\u001b[33m;\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m    |\u001b[39m \u001b[31m\u001b[1m             ^\u001b[22m\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m 22 |\u001b[39m   \u001b[90m// Fill #city\u001b[39m\u001b[0m",
+              "steps": [],
+              "location": {
+                "file": "tests/test3.spec.js",
+                "line": 21,
+                "column": 14
+              }
+            },
+            {
+              "title": "page.fill(#city)",
+              "startTime": "2021-11-28T14:38:21.742Z",
+              "duration": 7,
+              "snippet": "\u001b[0m \u001b[90m 22 |\u001b[39m   \u001b[90m// Fill #city\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m 23 |\u001b[39m   \u001b[36mawait\u001b[39m page\u001b[33m.\u001b[39mfill(\u001b[32m'#city'\u001b[39m\u001b[33m,\u001b[39m \u001b[32m'dasd'\u001b[39m)\u001b[33m;\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m    |\u001b[39m \u001b[31m\u001b[1m             ^\u001b[22m\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m 24 |\u001b[39m   \u001b[90m// Click #card\u001b[39m\u001b[0m",
+              "steps": [],
+              "location": {
+                "file": "tests/test3.spec.js",
+                "line": 23,
+                "column": 14
+              }
+            },
+            {
+              "title": "page.click(#card)",
+              "startTime": "2021-11-28T14:38:21.749Z",
+              "duration": 43,
+              "snippet": "\u001b[0m \u001b[90m 24 |\u001b[39m   \u001b[90m// Click #card\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m 25 |\u001b[39m   \u001b[36mawait\u001b[39m page\u001b[33m.\u001b[39mclick(\u001b[32m'#card'\u001b[39m)\u001b[33m;\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m    |\u001b[39m \u001b[31m\u001b[1m             ^\u001b[22m\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m 26 |\u001b[39m   \u001b[90m// Fill #card\u001b[39m\u001b[0m",
+              "steps": [],
+              "location": {
+                "file": "tests/test3.spec.js",
+                "line": 25,
+                "column": 14
+              }
+            },
+            {
+              "title": "page.fill(#card)",
+              "startTime": "2021-11-28T14:38:21.793Z",
+              "duration": 6,
+              "snippet": "\u001b[0m \u001b[90m 26 |\u001b[39m   \u001b[90m// Fill #card\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m 27 |\u001b[39m   \u001b[36mawait\u001b[39m page\u001b[33m.\u001b[39mfill(\u001b[32m'#card'\u001b[39m\u001b[33m,\u001b[39m \u001b[32m'dsad'\u001b[39m)\u001b[33m;\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m    |\u001b[39m \u001b[31m\u001b[1m             ^\u001b[22m\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m 28 |\u001b[39m   \u001b[90m// Fill #month\u001b[39m\u001b[0m",
+              "steps": [],
+              "location": {
+                "file": "tests/test3.spec.js",
+                "line": 27,
+                "column": 14
+              }
+            },
+            {
+              "title": "page.fill(#month)",
+              "startTime": "2021-11-28T14:38:21.799Z",
+              "duration": 11,
+              "snippet": "\u001b[0m \u001b[90m 28 |\u001b[39m   \u001b[90m// Fill #month\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m 29 |\u001b[39m   \u001b[36mawait\u001b[39m page\u001b[33m.\u001b[39mfill(\u001b[32m'#month'\u001b[39m\u001b[33m,\u001b[39m \u001b[32m'a'\u001b[39m)\u001b[33m;\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m    |\u001b[39m \u001b[31m\u001b[1m             ^\u001b[22m\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m 30 |\u001b[39m   \u001b[90m// Click #month\u001b[39m\u001b[0m",
+              "steps": [],
+              "location": {
+                "file": "tests/test3.spec.js",
+                "line": 29,
+                "column": 14
+              }
+            },
+            {
+              "title": "page.click(#month)",
+              "startTime": "2021-11-28T14:38:21.810Z",
+              "duration": 31,
+              "snippet": "\u001b[0m \u001b[90m 30 |\u001b[39m   \u001b[90m// Click #month\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m 31 |\u001b[39m   \u001b[36mawait\u001b[39m page\u001b[33m.\u001b[39mclick(\u001b[32m'#month'\u001b[39m)\u001b[33m;\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m    |\u001b[39m \u001b[31m\u001b[1m             ^\u001b[22m\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m 32 |\u001b[39m   \u001b[90m// Fill #month\u001b[39m\u001b[0m",
+              "steps": [],
+              "location": {
+                "file": "tests/test3.spec.js",
+                "line": 31,
+                "column": 14
+              }
+            },
+            {
+              "title": "page.fill(#month)",
+              "startTime": "2021-11-28T14:38:21.841Z",
+              "duration": 8,
+              "snippet": "\u001b[0m \u001b[90m 32 |\u001b[39m   \u001b[90m// Fill #month\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m 33 |\u001b[39m   \u001b[36mawait\u001b[39m page\u001b[33m.\u001b[39mfill(\u001b[32m'#month'\u001b[39m\u001b[33m,\u001b[39m \u001b[32m'asdasd'\u001b[39m)\u001b[33m;\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m    |\u001b[39m \u001b[31m\u001b[1m             ^\u001b[22m\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m 34 |\u001b[39m   \u001b[90m// Click #year\u001b[39m\u001b[0m",
+              "steps": [],
+              "location": {
+                "file": "tests/test3.spec.js",
+                "line": 33,
+                "column": 14
+              }
+            },
+            {
+              "title": "page.click(#year)",
+              "startTime": "2021-11-28T14:38:21.849Z",
+              "duration": 42,
+              "snippet": "\u001b[0m \u001b[90m 34 |\u001b[39m   \u001b[90m// Click #year\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m 35 |\u001b[39m   \u001b[36mawait\u001b[39m page\u001b[33m.\u001b[39mclick(\u001b[32m'#year'\u001b[39m)\u001b[33m;\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m    |\u001b[39m \u001b[31m\u001b[1m             ^\u001b[22m\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m 36 |\u001b[39m   \u001b[90m// Fill #year\u001b[39m\u001b[0m",
+              "steps": [],
+              "location": {
+                "file": "tests/test3.spec.js",
+                "line": 35,
+                "column": 14
+              }
+            },
+            {
+              "title": "page.fill(#year)",
+              "startTime": "2021-11-28T14:38:21.893Z",
+              "duration": 13,
+              "snippet": "\u001b[0m \u001b[90m 36 |\u001b[39m   \u001b[90m// Fill #year\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m 37 |\u001b[39m   \u001b[36mawait\u001b[39m page\u001b[33m.\u001b[39mfill(\u001b[32m'#year'\u001b[39m\u001b[33m,\u001b[39m \u001b[32m'as'\u001b[39m)\u001b[33m;\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m    |\u001b[39m \u001b[31m\u001b[1m             ^\u001b[22m\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m 38 |\u001b[39m   \u001b[90m// Double click #year\u001b[39m\u001b[0m",
+              "steps": [],
+              "location": {
+                "file": "tests/test3.spec.js",
+                "line": 37,
+                "column": 14
+              }
+            },
+            {
+              "title": "page.dblclick(#year)",
+              "startTime": "2021-11-28T14:38:21.906Z",
+              "duration": 36,
+              "snippet": "\u001b[0m \u001b[90m 38 |\u001b[39m   \u001b[90m// Double click #year\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m 39 |\u001b[39m   \u001b[36mawait\u001b[39m page\u001b[33m.\u001b[39mdblclick(\u001b[32m'#year'\u001b[39m)\u001b[33m;\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m    |\u001b[39m \u001b[31m\u001b[1m             ^\u001b[22m\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m 40 |\u001b[39m   \u001b[90m// Fill #year\u001b[39m\u001b[0m",
+              "steps": [],
+              "location": {
+                "file": "tests/test3.spec.js",
+                "line": 39,
+                "column": 14
+              }
+            },
+            {
+              "title": "page.fill(#year)",
+              "startTime": "2021-11-28T14:38:21.942Z",
+              "duration": 7,
+              "snippet": "\u001b[0m \u001b[90m 40 |\u001b[39m   \u001b[90m// Fill #year\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m 41 |\u001b[39m   \u001b[36mawait\u001b[39m page\u001b[33m.\u001b[39mfill(\u001b[32m'#year'\u001b[39m\u001b[33m,\u001b[39m \u001b[32m'asdasdasd'\u001b[39m)\u001b[33m;\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m    |\u001b[39m \u001b[31m\u001b[1m             ^\u001b[22m\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m 42 |\u001b[39m   \u001b[90m// Click text=Purchase\u001b[39m\u001b[0m",
+              "steps": [],
+              "location": {
+                "file": "tests/test3.spec.js",
+                "line": 41,
+                "column": 14
+              }
+            },
+            {
+              "title": "page.click(text=Purchase)",
+              "startTime": "2021-11-28T14:38:21.949Z",
+              "duration": 66,
+              "snippet": "\u001b[0m \u001b[90m 42 |\u001b[39m   \u001b[90m// Click text=Purchase\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m 43 |\u001b[39m   \u001b[36mawait\u001b[39m page\u001b[33m.\u001b[39mclick(\u001b[32m'text=Purchase'\u001b[39m)\u001b[33m;\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m    |\u001b[39m \u001b[31m\u001b[1m             ^\u001b[22m\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m 44 |\u001b[39m   \u001b[90m// Click text=OK\u001b[39m\u001b[0m",
+              "steps": [],
+              "location": {
+                "file": "tests/test3.spec.js",
+                "line": 43,
+                "column": 14
+              }
+            },
+            {
+              "title": "page.click(text=OK)",
+              "startTime": "2021-11-28T14:38:22.015Z",
+              "duration": 331,
+              "snippet": "\u001b[0m \u001b[90m 44 |\u001b[39m   \u001b[90m// Click text=OK\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m 45 |\u001b[39m   \u001b[36mawait\u001b[39m page\u001b[33m.\u001b[39mclick(\u001b[32m'text=OK'\u001b[39m)\u001b[33m;\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m    |\u001b[39m \u001b[31m\u001b[1m             ^\u001b[22m\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m 46 |\u001b[39m   \u001b[36mawait\u001b[39m expect(page)\u001b[33m.\u001b[39mtoHaveURL(\u001b[32m'https://www.demoblaze.com/index.html'\u001b[39m)\u001b[33m;\u001b[39m\u001b[0m",
+              "steps": [],
+              "location": {
+                "file": "tests/test3.spec.js",
+                "line": 45,
+                "column": 14
+              }
+            },
+            {
+              "title": "expect.toHaveURL",
+              "startTime": "2021-11-28T14:38:22.346Z",
+              "duration": 5019,
+              "snippet": "\u001b[0m \u001b[90m 45 |\u001b[39m   \u001b[36mawait\u001b[39m page\u001b[33m.\u001b[39mclick(\u001b[32m'text=OK'\u001b[39m)\u001b[33m;\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m 46 |\u001b[39m   \u001b[36mawait\u001b[39m expect(page)\u001b[33m.\u001b[39mtoHaveURL(\u001b[32m'https://www.demoblaze.com/index.html'\u001b[39m)\u001b[33m;\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m    |\u001b[39m \u001b[31m\u001b[1m                     ^\u001b[22m\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m 47 |\u001b[39m })\u001b[33m;\u001b[39m\u001b[0m",
+              "steps": [],
+              "location": {
+                "file": "tests/test3.spec.js",
+                "line": 46,
+                "column": 22
+              },
+              "error": "\u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoHaveURL\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m)\u001b[22m\n\nExpected string: \u001b[32m\"https://www.demoblaze.com/\u001b[7mindex\u001b[27m.html\"\u001b[39m\nReceived string: \u001b[31m\"https://www.demoblaze.com/\u001b[7mcart\u001b[27m.html\"\u001b[39m\n\nCall log:\n  - \u001b[2mwaiting for selector \":root\"\u001b[22m\n\u001b[2m  -   selector resolved to <html lang=\"en\">…</html>\u001b[22m\n\u001b[2m  -   unexpected value \"https://www.demoblaze.com/cart.html\"\u001b[22m\n\u001b[2m  -   selector resolved to <html lang=\"en\">…</html>\u001b[22m\n\u001b[2m  -   unexpected value \"https://www.demoblaze.com/cart.html\"\u001b[22m\n\u001b[2m  -   selector resolved to <html lang=\"en\">…</html>\u001b[22m\n\u001b[2m  -   unexpected value \"https://www.demoblaze.com/cart.html\"\u001b[22m\n\u001b[2m  -   selector resolved to <html lang=\"en\">…</html>\u001b[22m\n\u001b[2m  -   unexpected value \"https://www.demoblaze.com/cart.html\"\u001b[22m\n\u001b[2m  -   selector resolved to <html lang=\"en\">…</html>\u001b[22m\n\u001b[2m  -   unexpected value \"https://www.demoblaze.com/cart.html\"\u001b[22m\n\u001b[2m  -   selector resolved to <html lang=\"en\">…</html>\u001b[22m\n\u001b[2m  -   unexpected value \"https://www.demoblaze.com/cart.html\"\u001b[22m\n\u001b[2m  -   selector resolved to <html lang=\"en\">…</html>\u001b[22m\n\u001b[2m  -   unexpected value \"https://www.demoblaze.com/cart.html\"\u001b[22m\n\u001b[2m  -   selector resolved to <html lang=\"en\">…</html>\u001b[22m\n\u001b[2m  -   unexpected value \"https://www.demoblaze.com/cart.html\"\u001b[22m\n"
+            },
+            {
+              "title": "After Hooks",
+              "startTime": "2021-11-28T14:38:27.367Z",
+              "duration": 19,
+              "steps": [
+                {
+                  "title": "browserContext.close",
+                  "startTime": "2021-11-28T14:38:27.370Z",
+                  "duration": 15,
+                  "steps": []
+                }
+              ]
+            }
+          ],
+          "error": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoHaveURL\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m)\u001b[22m\n\nExpected string: \u001b[32m\"https://www.demoblaze.com/\u001b[7mindex\u001b[27m.html\"\u001b[39m\nReceived string: \u001b[31m\"https://www.demoblaze.com/\u001b[7mcart\u001b[27m.html\"\u001b[39m\n\nCall log:\n  - \u001b[2mwaiting for selector \":root\"\u001b[22m\n\u001b[2m  -   selector resolved to <html lang=\"en\">…</html>\u001b[22m\n\u001b[2m  -   unexpected value \"https://www.demoblaze.com/cart.html\"\u001b[22m\n\u001b[2m  -   selector resolved to <html lang=\"en\">…</html>\u001b[22m\n\u001b[2m  -   unexpected value \"https://www.demoblaze.com/cart.html\"\u001b[22m\n\u001b[2m  -   selector resolved to <html lang=\"en\">…</html>\u001b[22m\n\u001b[2m  -   unexpected value \"https://www.demoblaze.com/cart.html\"\u001b[22m\n\u001b[2m  -   selector resolved to <html lang=\"en\">…</html>\u001b[22m\n\u001b[2m  -   unexpected value \"https://www.demoblaze.com/cart.html\"\u001b[22m\n\u001b[2m  -   selector resolved to <html lang=\"en\">…</html>\u001b[22m\n\u001b[2m  -   unexpected value \"https://www.demoblaze.com/cart.html\"\u001b[22m\n\u001b[2m  -   selector resolved to <html lang=\"en\">…</html>\u001b[22m\n\u001b[2m  -   unexpected value \"https://www.demoblaze.com/cart.html\"\u001b[22m\n\u001b[2m  -   selector resolved to <html lang=\"en\">…</html>\u001b[22m\n\u001b[2m  -   unexpected value \"https://www.demoblaze.com/cart.html\"\u001b[22m\n\u001b[2m  -   selector resolved to <html lang=\"en\">…</html>\u001b[22m\n\u001b[2m  -   unexpected value \"https://www.demoblaze.com/cart.html\"\u001b[22m\n\n\n\u001b[0m \u001b[90m 44 |\u001b[39m   \u001b[90m// Click text=OK\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m 45 |\u001b[39m   \u001b[36mawait\u001b[39m page\u001b[33m.\u001b[39mclick(\u001b[32m'text=OK'\u001b[39m)\u001b[33m;\u001b[39m\u001b[0m\n\u001b[0m\u001b[31m\u001b[1m>\u001b[22m\u001b[39m\u001b[90m 46 |\u001b[39m   \u001b[36mawait\u001b[39m expect(page)\u001b[33m.\u001b[39mtoHaveURL(\u001b[32m'https://www.demoblaze.com/index.html'\u001b[39m)\u001b[33m;\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m    |\u001b[39m                      \u001b[31m\u001b[1m^\u001b[22m\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m 47 |\u001b[39m })\u001b[33m;\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m 48 |\u001b[39m\u001b[0m\n\n\u001b[2m    at test (/home/c.pospelova/Desktop/Playwright-Public/tests/test3.spec.js:46:22)\u001b[22m",
+          "status": "failed",
+          "attachments": []
+        }
+      ],
+      "ok": false
+    }
+  ]
+}

@@ -1,0 +1,140 @@
+{
+  "files": [
+    {
+      "fileId": "8dab82634e15273dd3371d7f5fec99d4bbaa2d3d",
+      "fileName": "tests/test2.spec.js",
+      "tests": [
+        {
+          "testId": "8dab82634e15273dd3371d7f5fec99d4bbaa2d3d-4cae6229c73785056c6e0c7beecb73e48bb2ad9a",
+          "title": "test",
+          "projectName": "",
+          "location": {
+            "file": "tests/test2.spec.js",
+            "line": 2,
+            "column": 1
+          },
+          "duration": 30026,
+          "outcome": "unexpected",
+          "path": [
+            "tests/test2.spec.js:2"
+          ],
+          "ok": false
+        }
+      ],
+      "stats": {
+        "total": 1,
+        "expected": 0,
+        "unexpected": 1,
+        "flaky": 0,
+        "skipped": 0,
+        "ok": false,
+        "duration": 30026
+      }
+    },
+    {
+      "fileId": "8bdf136b5c174ffa1505e90a758e2fe1c3c861f1",
+      "fileName": "tests/test3.spec.js",
+      "tests": [
+        {
+          "testId": "8bdf136b5c174ffa1505e90a758e2fe1c3c861f1-4cae6229c73785056c6e0c7beecb73e48bb2ad9a",
+          "title": "test",
+          "projectName": "",
+          "location": {
+            "file": "tests/test3.spec.js",
+            "line": 2,
+            "column": 1
+          },
+          "duration": 9314,
+          "outcome": "unexpected",
+          "path": [
+            "tests/test3.spec.js:2"
+          ],
+          "ok": false
+        }
+      ],
+      "stats": {
+        "total": 1,
+        "expected": 0,
+        "unexpected": 1,
+        "flaky": 0,
+        "skipped": 0,
+        "ok": false,
+        "duration": 9314
+      }
+    },
+    {
+      "fileId": "8badf7460102ee59ecc45a6c8cd5f3be0197a613",
+      "fileName": "example.spec.js",
+      "tests": [
+        {
+          "testId": "8badf7460102ee59ecc45a6c8cd5f3be0197a613-e8420f3d1ef6d667cb01048c941b1c5368c864e1",
+          "title": "basic test",
+          "projectName": "",
+          "location": {
+            "file": "example.spec.js",
+            "line": 3,
+            "column": 1
+          },
+          "duration": 1222,
+          "outcome": "expected",
+          "path": [
+            "example.spec.js:3"
+          ],
+          "ok": true
+        }
+      ],
+      "stats": {
+        "total": 1,
+        "expected": 1,
+        "unexpected": 0,
+        "flaky": 0,
+        "skipped": 0,
+        "ok": true,
+        "duration": 1222
+      }
+    },
+    {
+      "fileId": "dc360fbc71ccb1146ee2a036e15f3388b823cad0",
+      "fileName": "tests/test1.spec.js",
+      "tests": [
+        {
+          "testId": "dc360fbc71ccb1146ee2a036e15f3388b823cad0-4cae6229c73785056c6e0c7beecb73e48bb2ad9a",
+          "title": "test",
+          "projectName": "",
+          "location": {
+            "file": "tests/test1.spec.js",
+            "line": 2,
+            "column": 1
+          },
+          "duration": 6408,
+          "outcome": "expected",
+          "path": [
+            "tests/test1.spec.js:2"
+          ],
+          "ok": true
+        }
+      ],
+      "stats": {
+        "total": 1,
+        "expected": 1,
+        "unexpected": 0,
+        "flaky": 0,
+        "skipped": 0,
+        "ok": true,
+        "duration": 6408
+      }
+    }
+  ],
+  "projectNames": [
+    ""
+  ],
+  "stats": {
+    "total": 4,
+    "expected": 2,
+    "unexpected": 2,
+    "flaky": 0,
+    "skipped": 0,
+    "ok": false,
+    "duration": 46970
+  }
+}

@@ -1,0 +1,84 @@
+{
+  "fileId": "8badf7460102ee59ecc45a6c8cd5f3be0197a613",
+  "fileName": "example.spec.js",
+  "tests": [
+    {
+      "testId": "8badf7460102ee59ecc45a6c8cd5f3be0197a613-e8420f3d1ef6d667cb01048c941b1c5368c864e1",
+      "title": "basic test",
+      "projectName": "",
+      "location": {
+        "file": "example.spec.js",
+        "line": 3,
+        "column": 1
+      },
+      "duration": 1222,
+      "outcome": "expected",
+      "path": [
+        "example.spec.js:3"
+      ],
+      "results": [
+        {
+          "duration": 1222,
+          "startTime": "2021-11-28T14:38:16.595Z",
+          "retry": 0,
+          "steps": [
+            {
+              "title": "Before Hooks",
+              "startTime": "2021-11-28T14:38:16.595Z",
+              "duration": 160,
+              "steps": [
+                {
+                  "title": "browserContext.newPage",
+                  "startTime": "2021-11-28T14:38:16.730Z",
+                  "duration": 25,
+                  "steps": []
+                }
+              ]
+            },
+            {
+              "title": "page.goto(https://playwright.dev/)",
+              "startTime": "2021-11-28T14:38:16.756Z",
+              "duration": 1024,
+              "snippet": "\u001b[0m \u001b[90m 3 |\u001b[39m test(\u001b[32m'basic test'\u001b[39m\u001b[33m,\u001b[39m \u001b[36masync\u001b[39m ({ page }) \u001b[33m=>\u001b[39m {\u001b[0m\n\u001b[0m \u001b[90m 4 |\u001b[39m   \u001b[36mawait\u001b[39m page\u001b[33m.\u001b[39mgoto(\u001b[32m'https://playwright.dev/'\u001b[39m)\u001b[33m;\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m   |\u001b[39m \u001b[31m\u001b[1m             ^\u001b[22m\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m 5 |\u001b[39m   \u001b[36mconst\u001b[39m title \u001b[33m=\u001b[39m page\u001b[33m.\u001b[39mlocator(\u001b[32m'.navbar__inner .navbar__title'\u001b[39m)\u001b[33m;\u001b[39m\u001b[0m",
+              "steps": [],
+              "location": {
+                "file": "example.spec.js",
+                "line": 4,
+                "column": 14
+              }
+            },
+            {
+              "title": "expect.toHaveText",
+              "startTime": "2021-11-28T14:38:17.782Z",
+              "duration": 29,
+              "snippet": "\u001b[0m \u001b[90m 5 |\u001b[39m   \u001b[36mconst\u001b[39m title \u001b[33m=\u001b[39m page\u001b[33m.\u001b[39mlocator(\u001b[32m'.navbar__inner .navbar__title'\u001b[39m)\u001b[33m;\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m 6 |\u001b[39m   \u001b[36mawait\u001b[39m expect(title)\u001b[33m.\u001b[39mtoHaveText(\u001b[32m'Playwright'\u001b[39m)\u001b[33m;\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m   |\u001b[39m \u001b[31m\u001b[1m                      ^\u001b[22m\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m 7 |\u001b[39m })\u001b[33m;\u001b[39m\u001b[0m",
+              "steps": [],
+              "location": {
+                "file": "example.spec.js",
+                "line": 6,
+                "column": 23
+              }
+            },
+            {
+              "title": "After Hooks",
+              "startTime": "2021-11-28T14:38:17.812Z",
+              "duration": 5,
+              "steps": [
+                {
+                  "title": "browserContext.close",
+                  "startTime": "2021-11-28T14:38:17.813Z",
+                  "duration": 4,
+                  "steps": []
+                }
+              ]
+            }
+          ],
+          "error": "",
+          "status": "passed",
+          "attachments": []
+        }
+      ],
+      "ok": true
+    }
+  ]
+}

@@ -1,0 +1,144 @@
+{
+  "fileId": "dc360fbc71ccb1146ee2a036e15f3388b823cad0",
+  "fileName": "tests/test1.spec.js",
+  "tests": [
+    {
+      "testId": "dc360fbc71ccb1146ee2a036e15f3388b823cad0-4cae6229c73785056c6e0c7beecb73e48bb2ad9a",
+      "title": "test",
+      "projectName": "",
+      "location": {
+        "file": "tests/test1.spec.js",
+        "line": 2,
+        "column": 1
+      },
+      "duration": 6408,
+      "outcome": "expected",
+      "path": [
+        "tests/test1.spec.js:2"
+      ],
+      "results": [
+        {
+          "duration": 6408,
+          "startTime": "2021-11-28T14:38:17.060Z",
+          "retry": 0,
+          "steps": [
+            {
+              "title": "Before Hooks",
+              "startTime": "2021-11-28T14:38:17.060Z",
+              "duration": 167,
+              "steps": [
+                {
+                  "title": "browserContext.newPage",
+                  "startTime": "2021-11-28T14:38:17.192Z",
+                  "duration": 34,
+                  "steps": []
+                }
+              ]
+            },
+            {
+              "title": "page.goto(https://www.demoblaze.com/)",
+              "startTime": "2021-11-28T14:38:17.229Z",
+              "duration": 2629,
+              "snippet": "\u001b[0m \u001b[90m  3 |\u001b[39m   \u001b[90m// Go to https://www.demoblaze.com/\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m  4 |\u001b[39m   \u001b[36mawait\u001b[39m page\u001b[33m.\u001b[39mgoto(\u001b[32m'https://www.demoblaze.com/'\u001b[39m)\u001b[33m;\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m    |\u001b[39m \u001b[31m\u001b[1m             ^\u001b[22m\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m  5 |\u001b[39m   \u001b[90m// Click text=Laptops\u001b[39m\u001b[0m",
+              "steps": [],
+              "location": {
+                "file": "tests/test1.spec.js",
+                "line": 4,
+                "column": 14
+              }
+            },
+            {
+              "title": "page.click(text=Laptops)",
+              "startTime": "2021-11-28T14:38:19.859Z",
+              "duration": 91,
+              "snippet": "\u001b[0m \u001b[90m  5 |\u001b[39m   \u001b[90m// Click text=Laptops\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m  6 |\u001b[39m   \u001b[36mawait\u001b[39m page\u001b[33m.\u001b[39mclick(\u001b[32m'text=Laptops'\u001b[39m)\u001b[33m;\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m    |\u001b[39m \u001b[31m\u001b[1m             ^\u001b[22m\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m  7 |\u001b[39m   \u001b[36mawait\u001b[39m expect(page)\u001b[33m.\u001b[39mtoHaveURL(\u001b[32m'https://www.demoblaze.com/#'\u001b[39m)\u001b[33m;\u001b[39m\u001b[0m",
+              "steps": [],
+              "location": {
+                "file": "tests/test1.spec.js",
+                "line": 6,
+                "column": 14
+              }
+            },
+            {
+              "title": "expect.toHaveURL",
+              "startTime": "2021-11-28T14:38:19.953Z",
+              "duration": 27,
+              "snippet": "\u001b[0m \u001b[90m  6 |\u001b[39m   \u001b[36mawait\u001b[39m page\u001b[33m.\u001b[39mclick(\u001b[32m'text=Laptops'\u001b[39m)\u001b[33m;\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m  7 |\u001b[39m   \u001b[36mawait\u001b[39m expect(page)\u001b[33m.\u001b[39mtoHaveURL(\u001b[32m'https://www.demoblaze.com/#'\u001b[39m)\u001b[33m;\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m    |\u001b[39m \u001b[31m\u001b[1m                     ^\u001b[22m\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m  8 |\u001b[39m   \u001b[90m// Click text=Sony vaio i5\u001b[39m\u001b[0m",
+              "steps": [],
+              "location": {
+                "file": "tests/test1.spec.js",
+                "line": 7,
+                "column": 22
+              }
+            },
+            {
+              "title": "page.click(text=Sony vaio i5)",
+              "startTime": "2021-11-28T14:38:19.981Z",
+              "duration": 2217,
+              "snippet": "\u001b[0m \u001b[90m  8 |\u001b[39m   \u001b[90m// Click text=Sony vaio i5\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m  9 |\u001b[39m   \u001b[36mawait\u001b[39m page\u001b[33m.\u001b[39mclick(\u001b[32m'text=Sony vaio i5'\u001b[39m)\u001b[33m;\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m    |\u001b[39m \u001b[31m\u001b[1m             ^\u001b[22m\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m 10 |\u001b[39m   \u001b[36mawait\u001b[39m expect(page)\u001b[33m.\u001b[39mtoHaveURL(\u001b[32m'https://www.demoblaze.com/prod.html?idp_=8'\u001b[39m)\u001b[33m;\u001b[39m\u001b[0m",
+              "steps": [],
+              "location": {
+                "file": "tests/test1.spec.js",
+                "line": 9,
+                "column": 14
+              }
+            },
+            {
+              "title": "expect.toHaveURL",
+              "startTime": "2021-11-28T14:38:22.199Z",
+              "duration": 51,
+              "snippet": "\u001b[0m \u001b[90m  9 |\u001b[39m   \u001b[36mawait\u001b[39m page\u001b[33m.\u001b[39mclick(\u001b[32m'text=Sony vaio i5'\u001b[39m)\u001b[33m;\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m 10 |\u001b[39m   \u001b[36mawait\u001b[39m expect(page)\u001b[33m.\u001b[39mtoHaveURL(\u001b[32m'https://www.demoblaze.com/prod.html?idp_=8'\u001b[39m)\u001b[33m;\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m    |\u001b[39m \u001b[31m\u001b[1m                     ^\u001b[22m\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m 11 |\u001b[39m   \u001b[90m// Click text=Add to cart\u001b[39m\u001b[0m",
+              "steps": [],
+              "location": {
+                "file": "tests/test1.spec.js",
+                "line": 10,
+                "column": 22
+              }
+            },
+            {
+              "title": "page.click(text=Add to cart)",
+              "startTime": "2021-11-28T14:38:22.251Z",
+              "duration": 1208,
+              "snippet": "\u001b[0m \u001b[90m 15 |\u001b[39m   })\u001b[33m;\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m 16 |\u001b[39m   \u001b[36mawait\u001b[39m page\u001b[33m.\u001b[39mclick(\u001b[32m'text=Add to cart'\u001b[39m)\u001b[33m;\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m    |\u001b[39m \u001b[31m\u001b[1m             ^\u001b[22m\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m 17 |\u001b[39m   \u001b[36mawait\u001b[39m expect(page)\u001b[33m.\u001b[39mtoHaveURL(\u001b[32m'https://www.demoblaze.com/prod.html?idp_=8#'\u001b[39m)\u001b[33m;\u001b[39m\u001b[0m",
+              "steps": [],
+              "location": {
+                "file": "tests/test1.spec.js",
+                "line": 16,
+                "column": 14
+              }
+            },
+            {
+              "title": "expect.toHaveURL",
+              "startTime": "2021-11-28T14:38:23.460Z",
+              "duration": 3,
+              "snippet": "\u001b[0m \u001b[90m 16 |\u001b[39m   \u001b[36mawait\u001b[39m page\u001b[33m.\u001b[39mclick(\u001b[32m'text=Add to cart'\u001b[39m)\u001b[33m;\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m 17 |\u001b[39m   \u001b[36mawait\u001b[39m expect(page)\u001b[33m.\u001b[39mtoHaveURL(\u001b[32m'https://www.demoblaze.com/prod.html?idp_=8#'\u001b[39m)\u001b[33m;\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m    |\u001b[39m \u001b[31m\u001b[1m                     ^\u001b[22m\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m 18 |\u001b[39m })\u001b[33m;\u001b[39m\u001b[0m",
+              "steps": [],
+              "location": {
+                "file": "tests/test1.spec.js",
+                "line": 17,
+                "column": 22
+              }
+            },
+            {
+              "title": "After Hooks",
+              "startTime": "2021-11-28T14:38:23.463Z",
+              "duration": 5,
+              "steps": [
+                {
+                  "title": "browserContext.close",
+                  "startTime": "2021-11-28T14:38:23.464Z",
+                  "duration": 4,
+                  "steps": []
+                }
+              ]
+            }
+          ],
+          "error": "",
+          "status": "passed",
+          "attachments": []
+        }
+      ],
+      "ok": true
+    }
+  ]
+}
